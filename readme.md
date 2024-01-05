@@ -3,7 +3,7 @@
 * 可以添加和查看待办事项
 
 # 项目怎么跑？
-* 在`./end`目录下，运行`dotnet run`命令，启动后端服务。如果提示缺少运行环境就按照提示按照即可
+* 在`./end`目录下，运行`dotnet run`命令，启动后端服务。如果提示缺少运行环境就按照提示安装即可
 * 打开`./front/requests.js`文件，修改`base_url`为你的后端服务地址。这个地址可以在后端服务启动后看到。比如:
 ```powershell
 info: Microsoft.Hosting.Lifetime[14]
