@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    background-color: white;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-window {
+    background-color: #a0c5ea;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    margin: 10px auto;
+    padding: 10px;
+    width: 500px;
+    min-height: 600px;
+    height: auto;
+}
+
+.user-tab {
+    width: 100%;
+    height: auto;;
+    background-color: #78c4ff;
+    margin: 0;
+    padding: 0;
+    border: black 1px solid;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thing-list {
+    width: 100%;
+    height: 600px;
+    /*background-color: aquamarine;*/
+    overflow-y: scroll;
+}
+
+.thing-list > div {
+    max-width: 100%;
+    height: 50px;
+    background-color: #78c4ff;
+    margin: 8px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: black 1px solid;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thing-list > div > button {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    border: black 1px solid;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.thing-list > div > button:hover {
+    background-color: #ffb88a;
+}
+
+.thing-list > div > button:active {
+    background-color: #ff0000;
+}
+
+.thing-adder {
+    height: auto;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-input {
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border: black 1px solid;
+    padding: 4px 8px;
+    margin: 4px 10px;
+}
+
+.btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    border: black 1px solid;
+    margin: 8px;
+    padding: 4px;
+    background-color: #78c4ff;
+}

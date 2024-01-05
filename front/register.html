@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <style>
+        @import url(./index.css);
+    </style>
+    <script src="./jquery-3.7.1.js"></script>
+    <script src="./requests.js"></script>
+    <meta charset="UTF-8">
+    <title>待办事项列表</title>
+</head>
+<body>
+<div class="main-container">
+    <h1>待办事项列表</h1>
+    <div class="login-window">
+        <div class="login-box">
+            <div class="input-group">
+                <!--                <span>用户名</span>-->
+                <input class="text-input" type="text" name="username" id="username" placeholder="请输入用户名">
+            </div>
+            <div class="input-group">
+                <!--                <span>密码</span>-->
+                <input class="text-input" type="password" name="password" id="password" placeholder="请输入密码">
+            </div>
+            <div class="input-group">
+                <input class="text-input" type="password" name="ensure-password" placeholder="请输入确认密码">
+            </div>
+            <button class="btn" id="register-btn">注册</button>
+            <a class="link" href="./index.html">返回登录页面</a>
+        </div>
+    </div>
+</div>
+<script src="./register.js"></script>
+</body>
+</html>
